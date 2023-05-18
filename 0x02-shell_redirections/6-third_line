@@ -1,0 +1,4 @@
+#!/bin/bash
+file="iacta"
+line=$(head -n 3 "$file" | tail -n 1)
+echo "$line"
